@@ -1,1 +1,1 @@
-from .fields import CharArrayField, TextArrayField, IntegerArrayField
+from .fields import CharArrayField, TextArrayField, IntegerArrayField, TimeArrayField
