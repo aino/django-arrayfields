@@ -59,7 +59,7 @@ class TimeArrayField(ArrayFieldBase):
     """
     A text array field for PostgreSQL
     """
-    description = _('Text array')
+    description = _('Time array')
 
     def db_type(self, connection):
         return 'time[]'
