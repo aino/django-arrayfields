@@ -55,3 +55,12 @@ class IntegerArrayField(ArrayFieldBase):
     def db_type(self, connection):
         return 'integer[]'
 
+class TimeArrayField(ArrayFieldBase):
+    """
+    A text array field for PostgreSQL
+    """
+    description = _('Text array')
+
+    def db_type(self, connection):
+        return 'time[]'
+
